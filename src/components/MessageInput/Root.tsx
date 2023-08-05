@@ -2,6 +2,10 @@ import React from 'react';
 
 import * as S from './styles';
 
-export default function Root() {
-  return <S.InputContainer>Root</S.InputContainer>;
+type RootProps = {
+  children: React.ReactNode;
+};
+
+export default function Root({ children }: RootProps) {
+  return <S.RootContainer>{children}</S.RootContainer>;
 }
