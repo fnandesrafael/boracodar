@@ -7,11 +7,12 @@ export const Overall = createGlobalStyle`
   }
 
   body {
-    background-color: whitesmoke;
+    background-color: #1B1924;
   }
 
   html, body, #root {
-    font-family: Inter, sans-serif;
+    color: white;
+    font-family: Roboto, sans-serif;
     height: 100vh;
     width: 100%;
   }
@@ -20,4 +21,5 @@ export const Overall = createGlobalStyle`
 export const AppWrapper = styled.div`
   display: flex;
   flex-flow: column;
+  width: 100%;
 `;
