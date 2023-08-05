@@ -8,6 +8,8 @@ export const RootContainer = styled.footer`
   border-radius: 62.4375rem;
   display: flex;
   margin: 1.25rem;
+  margin-bottom: 0.75rem;
+  margin-top: 0.75rem;
   padding: 0.875rem 1.5rem;
 `;
 

@@ -25,3 +25,17 @@ export const AppWrapper = styled.div`
   justify-content: space-between;
   width: 100%;
 `;
+
+export const MessageHistory = styled.div`
+  align-items: end;
+  display: flex;
+  flex-flow: column;
+  gap: 1.25rem;
+  height: 100%;
+  margin: 0 1.25rem;
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+`;
