@@ -2,11 +2,14 @@ import styled from 'styled-components';
 import { motion } from 'framer-motion';
 
 export const RootContainer = styled.header`
+  box-shadow: 0 10px 20px -12px #1b1924;
   display: flex;
   flex-flow: row;
   height: 4rem;
   justify-content: space-between;
-  margin: 1.25rem;
+  padding: 1.25rem;
+  padding-bottom: 0.75rem;
+  z-index: 10;
 `;
 
 export const ContactContainer = styled.div`
