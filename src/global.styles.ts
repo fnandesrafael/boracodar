@@ -21,5 +21,7 @@ export const Overall = createGlobalStyle`
 export const AppWrapper = styled.div`
   display: flex;
   flex-flow: column;
+  height: 100%;
+  justify-content: space-between;
   width: 100%;
 `;
