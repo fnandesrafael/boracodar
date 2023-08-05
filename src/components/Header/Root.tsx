@@ -7,5 +7,5 @@ type RootProps = {
 };
 
 export default function Root({ children }: RootProps) {
-  return <S.HeaderContainer>{children}</S.HeaderContainer>;
+  return <S.RootContainer>{children}</S.RootContainer>;
 }

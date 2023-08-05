@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 
-export const HeaderContainer = styled.header`
+export const RootContainer = styled.header`
   display: flex;
   flex-flow: row;
   height: 4rem;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 1.25rem;
 `;
 
 export const ContactContainer = styled.div`
@@ -47,5 +47,3 @@ export const CloseButton = styled(motion.button)`
     font-size: 1.35rem;
   }
 `;
-
-export default HeaderContainer;
