@@ -7,7 +7,7 @@ export const RootContainer = styled.footer`
   background: #282843;
   border-radius: 62.4375rem;
   display: flex;
-  margin: 1rem;
+  margin: 1.25rem;
   padding: 0.875rem 1.5rem;
 `;
 
