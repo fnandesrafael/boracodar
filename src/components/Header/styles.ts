@@ -6,7 +6,7 @@ export const RootContainer = styled.header`
   flex-flow: row;
   height: 4rem;
   justify-content: space-between;
-  padding: 1.25rem;
+  margin: 1.25rem;
 `;
 
 export const ContactContainer = styled.div`
