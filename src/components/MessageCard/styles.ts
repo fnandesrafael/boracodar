@@ -2,6 +2,10 @@ import styled from 'styled-components';
 import { motion } from 'framer-motion';
 
 export const RootContainer = styled(motion.div)`
+  @media (width > 320px) {
+    max-width: 80%;
+  }
+
   display: flex;
   flex-flow: column;
   gap: 0.5rem;

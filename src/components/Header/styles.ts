@@ -47,6 +47,6 @@ export const CloseButton = styled(motion.button)`
 
   svg {
     color: white !important;
-    font-size: 1.35rem;
+    font-size: 1.5rem;
   }
 `;
