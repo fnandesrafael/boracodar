@@ -1,8 +1,8 @@
 import React, { createContext, useState } from 'react';
 
-type MessageProps = {
+export type MessageProps = {
   user: string;
-  date: Date;
+  date: string;
   text: string;
 };
 
