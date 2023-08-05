@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.0.7"
   },
   "devDependencies": {
     "@types/node": "^20.4.8",
@@ -34,7 +35,6 @@
     "parrotenv": "^1.4.4",
     "postcss-styled-components": "^0.2.1",
     "prettier": "^3.0.1",
-    "styled-components": "^6.0.7",
     "stylelint": "^15.10.2",
     "stylelint-config-standard": "^34.0.0",
     "stylelint-order": "^6.0.3",
