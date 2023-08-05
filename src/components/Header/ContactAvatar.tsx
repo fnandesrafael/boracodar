@@ -1,13 +1,8 @@
 import React from 'react';
+import Avatar from '../../assets/images/pope_francis.png';
 
 import * as S from './styles';
 
-type PhotoProps = {
-  props: {
-    image: string;
-  };
-};
-
-export default function ContactAvatar({ props: { image } }: PhotoProps) {
-  return <S.AvatarContainer src={image} alt="Contact Profile Picture" />;
+export default function ContactAvatar() {
+  return <S.AvatarContainer src={Avatar} alt="Contact Profile Picture" />;
 }

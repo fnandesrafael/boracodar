@@ -2,10 +2,10 @@ import React from 'react';
 
 import * as S from './styles';
 
-export default function Text() {
-  return (
-    <S.TextContainer>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    </S.TextContainer>
-  );
+type TextProps = {
+  children: string;
+};
+
+export default function Text({ children }: TextProps) {
+  return <S.TextContainer>{children}</S.TextContainer>;
 }

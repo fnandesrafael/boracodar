@@ -1,4 +1,5 @@
 import React from 'react';
+
 import * as S from './styles';
 
 type RootProps = {
@@ -6,5 +7,15 @@ type RootProps = {
 };
 
 export default function Root({ children }: RootProps) {
-  return <S.RootContainer>{children}</S.RootContainer>;
+  return (
+    <S.RootContainer
+      initial={{ scale: 0 }}
+      animate={{
+        scale: 1,
+        transition: { duration: 0.2, ease: [0.43, 0.13, 0.23, 0.96] },
+      }}
+    >
+      {children}
+    </S.RootContainer>
+  );
 }

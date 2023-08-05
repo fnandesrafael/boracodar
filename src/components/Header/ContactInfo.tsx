@@ -5,7 +5,7 @@ import * as S from './styles';
 export default function ContactInfo() {
   return (
     <S.InfoContainer>
-      <h3>Luan Victor</h3>
+      <h3>Pope Francis</h3>
       <p>Online</p>
     </S.InfoContainer>
   );

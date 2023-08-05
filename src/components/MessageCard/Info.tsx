@@ -2,6 +2,10 @@ import React from 'react';
 
 import * as S from './styles';
 
-export default function Info() {
-  return <S.InfoContainer>Você - 16:08</S.InfoContainer>;
+type InfoProps = {
+  children: string[];
+};
+
+export default function Info({ children }: InfoProps) {
+  return <S.InfoContainer>{children}</S.InfoContainer>;
 }

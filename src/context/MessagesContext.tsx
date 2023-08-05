@@ -1,6 +1,7 @@
 import React, { createContext, useState } from 'react';
 
 export type MessageProps = {
+  id: string;
   user: string;
   date: string;
   text: string;

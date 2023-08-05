@@ -1,4 +1,5 @@
 import React, { useContext, useState } from 'react';
+import { v4 as uuid } from 'uuid';
 import { MessageInput } from '.';
 import formatDate from '../../utils/formatDate';
 import { MessageProps, MessagesContext } from '../../context/MessagesContext';
@@ -11,6 +12,7 @@ export default function Composition() {
     e.preventDefault();
 
     const newMessage: MessageProps = {
+      id: uuid(),
       user: 'Você',
       date: formatDate(new Date()),
       text: currMessage,
