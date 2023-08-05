@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { motion } from 'framer-motion';
 
 export const HeaderContainer = styled.header`
   display: flex;
@@ -36,9 +37,10 @@ export const InfoContainer = styled.div`
   }
 `;
 
-export const CloseButton = styled.button`
+export const CloseButton = styled(motion.button)`
   background: none;
   border: none;
+  cursor: pointer;
 
   svg {
     color: white !important;

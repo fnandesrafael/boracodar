@@ -5,7 +5,7 @@ import * as S from './styles';
 
 export default function Action() {
   return (
-    <S.CloseButton>
+    <S.CloseButton whileTap={{ scale: 0.9 }}>
       <VscClose />
     </S.CloseButton>
   );
