@@ -7,6 +7,7 @@ export const RootContainer = styled.footer`
   background: #282843;
   border-radius: 62.4375rem;
   display: flex;
+  gap: 0.5rem;
   margin: 1.25rem;
   margin-bottom: 0.75rem;
   margin-top: 0.75rem;
@@ -17,7 +18,7 @@ export const InputContainer = styled.input`
   background: none;
   border: none;
   color: white;
-  height: 150%;
+  height: 200%;
   outline: none;
   width: 100%;
 
