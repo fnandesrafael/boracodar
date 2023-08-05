@@ -22,7 +22,7 @@ export const InputContainer = styled.input`
   width: 100%;
 
   &::placeholder {
-    color: #424268;
+    color: #4e4e7a;
   }
 `;
 
