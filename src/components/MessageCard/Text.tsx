@@ -7,5 +7,5 @@ type TextProps = {
 };
 
 export default function Text({ children }: TextProps) {
-  return <S.TextContainer>{children}</S.TextContainer>;
+  return <S.MessageElement>{children}</S.MessageElement>;
 }

@@ -8,7 +8,7 @@ type RootProps = {
 
 export default function Root({ children }: RootProps) {
   return (
-    <S.RootContainer
+    <S.MessageWrapper
       initial={{ scale: 0 }}
       animate={{
         scale: 1,
@@ -16,6 +16,6 @@ export default function Root({ children }: RootProps) {
       }}
     >
       {children}
-    </S.RootContainer>
+    </S.MessageWrapper>
   );
 }

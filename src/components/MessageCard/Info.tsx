@@ -7,5 +7,5 @@ type InfoProps = {
 };
 
 export default function Info({ children }: InfoProps) {
-  return <S.InfoContainer>{children}</S.InfoContainer>;
+  return <S.MessageInfoContainer>{children}</S.MessageInfoContainer>;
 }
