@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 
-export const RootContainer = styled.header`
+export const HeaderWrapper = styled.header`
   display: flex;
   flex-flow: row;
   height: 4rem;
@@ -18,7 +18,7 @@ export const ContactContainer = styled.div`
   gap: 1rem;
 `;
 
-export const AvatarContainer = styled.img`
+export const AvatarElement = styled.img`
   border-radius: 100%;
   height: 3rem;
   width: 3rem;
