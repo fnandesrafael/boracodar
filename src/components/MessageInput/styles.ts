@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 
-export const RootContainer = styled.footer`
+export const MessageInputWrapper = styled.footer`
   align-items: center;
   align-self: stretch;
   background: #282843;
@@ -14,7 +14,7 @@ export const RootContainer = styled.footer`
   padding: 0.875rem 1.5rem;
 `;
 
-export const InputContainer = styled.input`
+export const MessageInputElement = styled.input`
   background: none;
   border: none;
   color: white;

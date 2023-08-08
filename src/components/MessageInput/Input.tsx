@@ -20,12 +20,12 @@ export default function Input({
   };
 
   return (
-    <S.InputContainer
+    <S.MessageInputElement
       type="text"
       placeholder="Digite sua mensagem"
       value={currMessage}
       onChange={({ target: { value } }) => setCurrMessage(value)}
       onKeyDown={handleKeyDown}
-    ></S.InputContainer>
+    />
   );
 }
