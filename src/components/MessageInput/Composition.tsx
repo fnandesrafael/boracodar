@@ -1,5 +1,5 @@
 import { MessageInput } from '.';
-import useSendMessage from '../../hooks/useEnter';
+import useSendMessage from '../../hooks/useSendMessage';
 
 export default function Composition() {
   const { currMessage, setCurrMessage, handleMessageSend } = useSendMessage();
