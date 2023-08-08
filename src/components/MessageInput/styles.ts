@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 
-export const MessageInputWrapper = styled.footer`
+export const MessageInputWrapper = styled.form`
   align-items: center;
   align-self: stretch;
   background: #282843;
