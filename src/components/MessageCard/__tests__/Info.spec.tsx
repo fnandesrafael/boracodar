@@ -16,21 +16,7 @@ describe('<MessageCard.Info />', () => {
     expect(sut.parentElement).toBeInTheDocument();
   });
 
-  it('should be a div', () => {
-    const mockDate = '00:00';
-    const mockUser = 'Foo';
-    const { getByText } = render(
-      <Info>
-        {mockDate} - {mockUser}
-      </Info>,
-    );
-
-    const sut = getByText('00:00 - Foo');
-
-    expect(sut.parentElement).toBeInstanceOf(HTMLDivElement);
-  });
-
-  it('should have a paragraph children with inner text "date - user" foramat', () => {
+  it('should be a paragraph rendering inner text "date - user" format', () => {
     const mockDate = '00:00';
     const mockUser = 'Foo';
     const { getByText } = render(
