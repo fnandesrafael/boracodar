@@ -2,13 +2,11 @@ import { MessageInput } from '.';
 import useSendMessage from '../../hooks/useSendMessage';
 
 export default function Composition() {
-  const { currMessage, setCurrMessage, handleMessageSend } = useSendMessage();
+  const { messageRef, handleMessageSend } = useSendMessage();
 
   return (
-    <MessageInput.Root>
-      <MessageInput.Input
-        props={{ currMessage, setCurrMessage, handleMessageSend }}
-      />
+    <MessageInput.Root props={{ handleMessageSend }}>
+      <MessageInput.Input props={{ messageRef }} />
       <MessageInput.Action props={{ handleMessageSend }} />
     </MessageInput.Root>
   );

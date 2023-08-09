@@ -1,7 +1,13 @@
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 
-export const MessageInputWrapper = styled.form`
+type MessageInputWrapperProps = {
+  onSubmit: (
+    e: React.MouseEvent<Element, MouseEvent> | React.KeyboardEvent<Element>,
+  ) => void;
+};
+
+export const MessageInputWrapper = styled.form<MessageInputWrapperProps>`
   align-items: center;
   align-self: stretch;
   background: #282843;

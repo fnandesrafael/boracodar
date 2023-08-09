@@ -4,28 +4,16 @@ import * as S from './styles';
 
 type InputProps = {
   props: {
-    currMessage: string;
-    setCurrMessage: React.Dispatch<React.SetStateAction<string>>;
-    handleMessageSend: (e: React.MouseEvent | React.KeyboardEvent) => void;
+    messageRef: React.MutableRefObject<HTMLInputElement>;
   };
 };
 
-export default function Input({
-  props: { currMessage, setCurrMessage, handleMessageSend },
-}: InputProps) {
-  const handleKeyDown = (e: React.KeyboardEvent) => {
-    if (e.key === 'Enter') {
-      handleMessageSend(e);
-    }
-  };
-
+export default function Input({ props: { messageRef } }: InputProps) {
   return (
     <S.MessageInputElement
       type="text"
       placeholder="Digite sua mensagem"
-      value={currMessage}
-      onChange={({ target: { value } }) => setCurrMessage(value)}
-      onKeyDown={handleKeyDown}
+      ref={messageRef}
     />
   );
 }
