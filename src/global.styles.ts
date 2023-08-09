@@ -26,7 +26,7 @@ export const AppWrapper = styled.div`
   width: 100%;
 `;
 
-export const MessageHistory = styled.div`
+export const MessageHistoryContainer = styled.div`
   align-items: end;
   display: flex;
   flex-flow: column;

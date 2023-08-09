@@ -12,11 +12,11 @@ function App() {
   return (
     <S.AppWrapper>
       <Header />
-      <S.MessageHistory>
+      <S.MessageHistoryContainer>
         {messages.map((message) => (
           <MessageCard key={message.id} props={{ ...message }} />
         ))}
-      </S.MessageHistory>
+      </S.MessageHistoryContainer>
       <MessageInput />
     </S.AppWrapper>
   );
