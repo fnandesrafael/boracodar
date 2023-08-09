@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react';
 import Action from '../fragments/Action';
 
-describe('<Action />', () => {
+describe('<Header.Action />', () => {
   it('should be in the document', () => {
     const { getByRole } = render(<Action />);
 

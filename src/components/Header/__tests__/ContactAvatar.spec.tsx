@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react';
 import ContactAvatar from '../fragments/ContactAvatar';
 
-describe('<ContactAvatar />', () => {
+describe('<Header.ContactAvatar />', () => {
   it('should be in the document', () => {
     const { getByRole } = render(<ContactAvatar />);
 

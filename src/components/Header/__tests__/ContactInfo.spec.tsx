@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react';
 import ContactInfo from '../fragments/ContactInfo';
 
-describe('<ContactInfo />', () => {
+describe('<Header.ContactInfo />', () => {
   it('should have an h3 children with the contact name', () => {
     const { getByRole } = render(<ContactInfo />);
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import Root from '../fragments/Root';
 
-describe('<Root />', () => {
+describe('<Header.Root />', () => {
   it('should be in the document', () => {
     const mock = <span>children</span>;
 
