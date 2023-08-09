@@ -1,7 +1,13 @@
 {
   "testEnvironment": "jest-environment-jsdom",
   "setupFilesAfterEnv": ["<rootDir>/.jest/setup-test.js"],
-  "collectCoverageFrom": ["<rootDir>/src/**/*.{ts,tsx}"],
+  "collectCoverageFrom": [
+    "<rootDir>/src/**/fragments/*.{ts,tsx}",
+    "<rootDir>/src/**/Composition.tsx",
+    "<rootDir>/src/context/*.{ts,tsx}",
+    "<rootDir>/src/hooks/*.ts",
+    "<rootDir>/src/utils/*.ts"
+  ],
   "moduleNameMapper": {
     "\\.(gif|ttf|eot|svg|png)$": "<rootDir>/.jest/mocks/fileMock.js"
   }
