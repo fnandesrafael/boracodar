@@ -1,6 +1,6 @@
-import Root from './Root';
-import Info from './Info';
-import Text from './Text';
+import Root from './fragments/Root';
+import Info from './fragments/Info';
+import Text from './fragments/Text';
 
 import Composition from './Composition';
 
