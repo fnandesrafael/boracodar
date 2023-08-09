@@ -1,7 +1,7 @@
-import Root from './Root';
-import ContactAvatar from './ContactAvatar';
-import ContactInfo from './ContactInfo';
-import Action from './Action';
+import Root from './fragments/Root';
+import ContactAvatar from './fragments/ContactAvatar';
+import ContactInfo from './fragments/ContactInfo';
+import Action from './fragments/Action';
 
 import Composition from './Composition';
 

@@ -1,17 +1,14 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import Root from '../Root';
+import Root from '../fragments/Root';
 
-describe('Root', () => {
-  test('should be in the document', () => {
-    render(
-      <Root>
-        <span>Foo</span>
-      </Root>,
-    );
+describe('<Root />', () => {
+  it('should be in the document', () => {
+    const mock = <span>children</span>;
 
-    const element = screen.getByText('Foo');
+    render(<Root>{mock}</Root>);
+    const sut = screen.getByRole('banner');
 
-    expect(element).toBeInTheDocument();
+    expect(sut).toBeInTheDocument();
   });
 });
