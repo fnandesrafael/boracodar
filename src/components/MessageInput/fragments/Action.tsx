@@ -1,7 +1,7 @@
 import React from 'react';
 import { IoMdSend } from 'react-icons/io';
 
-import * as S from './styles';
+import * as S from '../styles';
 
 type ActionProps = {
   props: {

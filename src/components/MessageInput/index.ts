@@ -1,6 +1,6 @@
-import Root from './Root';
-import Input from './Input';
-import Action from './Action';
+import Root from './fragments/Root';
+import Input from './fragments/Input';
+import Action from './fragments/Action';
 
 import Composition from './Composition';
 
