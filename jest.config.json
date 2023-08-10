@@ -4,7 +4,6 @@
   "collectCoverageFrom": [
     "<rootDir>/src/**/fragments/*.{ts,tsx}",
     "<rootDir>/src/**/Composition.tsx",
-    "<rootDir>/src/context/*.{ts,tsx}",
     "<rootDir>/src/hooks/*.ts",
     "<rootDir>/src/utils/*.ts"
   ],
