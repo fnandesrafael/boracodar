@@ -9,6 +9,7 @@ type RootProps = {
 export default function Root({ children }: RootProps) {
   return (
     <S.MessageWrapper
+      role="root"
       initial={{ scale: 0 }}
       animate={{
         scale: 1,
